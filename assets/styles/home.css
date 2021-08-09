@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;}
+  font-family: "Poppins", sans-serif;
+}
 
 body {
-  background-color: #c9dfe4;
-
+  background-color: #3F5DBC;
 }
 
 :root {
@@ -18,47 +18,43 @@ body {
   --green: #71ff99;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.btn-go-up div{
+.btn-go-up div {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .btn-go-up:hover {
   transform: translateY(5px);
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px 30px; */
+  padding: 20px 30px;
   width: 100%;
   position: fixed;
   z-index: 20;
-  /* top: 0;left: 0; */
   transition: 0.6s;
-
 }
-.sticky{
+.sticky {
   background: #1e2640;
   position: fixed;
   z-index: 20;
-
-}.sticky .logo a img{
-  width: 20%;
+  padding: 5px 30px;
 }
-.logo a img{
+.sticky .logo a img {
+  width: 25%;
+}
+.logo a img {
   justify-content: space-between;
   text-align: right;
   width: 30%;
-
 }
 
 .nav-area {
@@ -76,24 +72,21 @@ header {
   transition: 0.3s;
   color: white;
   text-decoration: none;
-  /* font-weight: 900; */
 }
 
 .hero-section {
   display: flex;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 10% 10%;
   align-items: center;
   background-image: url(../../images/bg.png);
   background-size: cover;
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 400px;
 }
 @media (min-width: 1850px) {
-  .hero-section{
+  .hero-section {
     height: 1200px;
   }
-  
 }
 
 main .main-header {
@@ -115,13 +108,13 @@ main .main-header p {
 #card-parent {
   margin: 50px;
   max-width: 300px;
-  background-color: #2fe0ff;
-  border-radius: 15px;
+  background-color: #4AA6E7;
+  border-radius: 10px;
   box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.316);
-
 }
 
 #card-parent .card-img img {
+  padding-top: 20px;
   width: 100%;
   overflow: hidden;
   transition: 1s ease;
@@ -137,32 +130,29 @@ main .main-header p {
 
 #card-parent .card-details .card-title p {
   font-size: 35px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #card-parent .card-details .card-author p {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #card-parent .card-button-container {
   padding: 0 40px;
   transform: translateY(30px);
-
 }
 
 #card-parent .card-buttons {
   display: flex;
   justify-content: center;
-  background-color: #6200ee;
+  background-color: #173E81;
   padding: 20px 0;
   border-radius: 10px;
   box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.535);
-
 }
 
 #card-parent .card-buttons > * {
   padding: 0 30px;
   color: white;
 }
-
